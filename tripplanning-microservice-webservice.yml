@@ -1,0 +1,14 @@
+server: 
+  port: 6020
+
+service: 
+  message: Hi, Trip planning MS is up
+
+spring:
+  data:
+    cassandra:
+      contact-points: 10.20.1.174
+      port: 9042
+      keyspace-name: tripplanning
+      username: flashex
+      password: flashex

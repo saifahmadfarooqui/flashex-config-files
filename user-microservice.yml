@@ -1,0 +1,11 @@
+server:
+  port: 6000
+
+service:
+  message: Hi, User MS is up
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://flashex:flashex@10.20.1.174:27017/?authSource=admin&authMechanism=SCRAM-SHA-1
+      database: userManagement
