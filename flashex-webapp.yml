@@ -6,9 +6,9 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: .
 
-eureka: 
-  client: 
-    register-with-eureka: true
-    fetch-registry: true
+# eureka: 
+#   client: 
+#     register-with-eureka: true
+#     fetch-registry: true
